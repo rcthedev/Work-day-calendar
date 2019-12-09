@@ -30,9 +30,28 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="hourBlock">
+        <h1>Hour</h1>
+        <p>8Am</p>
+        <h2>Schedule</h2>
+        <p id="enter">Empty</p>
+
+        
+        <!-- create link to local storage 
+        1 - Get the click and enter text working: Click on the word”empty” and enter in some other text
+        2 - add a save button that can save to local host
+        3 - click on the box and enter text THEN click save button and save to local host
+        4 - change your Jquery to have a function to read something from localhost and load it into the schedule instead of “empty”
+          things to remember:
+          use localstorage 
+          document.ready is where you should read form local storage (to load previously saved schedule events)-->
+
+          <!-- use CSS attributes, and when something changes, you can access the element and change it’s attributes to change color with the jquery method $(‘something’).attr(‘Style’) -->
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
